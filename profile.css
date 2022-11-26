@@ -1,0 +1,16 @@
+div {
+    text-align: center;
+}
+
+div img {
+    width: 50%;
+}
+
+h1 {
+    color: #fff;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
+}

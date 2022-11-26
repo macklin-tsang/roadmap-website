@@ -1,0 +1,38 @@
+
+div {
+    text-align: center;
+}
+
+.glowingText {
+    animation: flicker 1.5s infinite alternate;
+    color: rgb(0, 0, 0);
+}
+
+@keyframes flicker{
+
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px rgb(69, 0, 231),
+        0 0 80px rgb(69, 0, 231),
+        0 0 100px rgb(69, 0, 231),
+        0 0 150px rgb(69, 0, 231);
+    }
+
+    20%, 24%, 55% {
+        text-shadow: none;
+    }
+}
+
+h1 {
+    color: greenyellow
+}
+
+*{
+    background: rgba(0,0,0,0.2)url(https://americanlifestylemag.com/wp-content/uploads/2020/02/man-holding-map-intext2.jpg) repeat center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+}
